@@ -11,3 +11,15 @@
 # Москва - Вологда - Владивосток Хабаровск
 
 # P.S. Очевидно, функцию для передачи в map нужно сделать самому.
+
+
+def filter_town(city_name):
+    if len(city_name) > 5:
+        return city_name
+    return "-"
+
+
+if __name__ == "__main__":
+    towns = "Москва Уфа Вологда Тула Владивосток Хабаровск"
+    list_towns = towns.split()
+    print(" ".join(map(filter_town, list_towns)))

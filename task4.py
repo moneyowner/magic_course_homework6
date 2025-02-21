@@ -9,3 +9,13 @@
 #       ('ключ_2', 'значение_2'),
 #       ...
 #       ('ключ_N', 'значение_N'))
+
+
+def str2tuple(string):
+    return tuple(string.split("="))
+
+
+if __name__ == "__main__":
+    text = "ключ_1=значение_1 ключ_2=значение_2 ключ_3=значение_3"
+    print(tuple(map(str2tuple, text.split())))
+

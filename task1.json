@@ -1,22 +1,22 @@
 [
     {
         "name": "Laptop",
-        "price": 100000
+        "price": 12
     },
     {
         "name": "Smartphone",
-        "price": 50000
+        "price": 6
     },
     {
         "name": "Headphones",
-        "price": 10000
+        "price": 1
     },
     {
         "name": "Monitor",
-        "price": 30000
+        "price": 3
     },
     {
         "name": "Keyboard",
-        "price": 5000
+        "price": 0
     }
 ]
